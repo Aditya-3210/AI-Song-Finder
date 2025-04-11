@@ -1,5 +1,5 @@
-const LASTFM_API_KEY = 'YOUR_LASTFM_API_KEY'; // 🔑 Replace with your Last.fm API Key
-const GEMINI_API_KEY = ''; // 🔄 Optional: Add Gemini API key here if using it
+const LASTFM_API_KEY = 'YOUR_LASTFM_API_KEY';
+const GEMINI_API_KEY = '';
 
 const chatBox = document.getElementById('chat-box');
 const input = document.getElementById('user-input');
@@ -19,7 +19,7 @@ async function handleSend() {
   appendMessage(userInput, 'user');
   input.value = '';
 
-  // 🧠 Optional: Use Gemini to analyze mood
+  
   let mood = userInput;
   if (GEMINI_API_KEY) {
     try {
