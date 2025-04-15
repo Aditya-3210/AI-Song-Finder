@@ -1,0 +1,90 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gemini Music Recommender</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 AI Song Recommender</h1>
+    <div id="chat-box"></div>
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Tell me how you're feeling..." />
+      <button onclick="handleSend()">Send</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Music Chatbot - TuneMate</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body class="light-mode">
+  <header>
+    <nav class="navbar">
+      <div class="logo">TuneMate</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chatbot.html" class="active">Chatbot</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-icon">🌙</span>
+      </button>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>AI Music Chatbot</h1>
+      <p>Tell me how you're feeling, and I'll suggest songs that match your mood.</p>
+    </section>
+    <br>
+    <section class="chatbot-container">
+      <div class="chat-area" id="chat-area">
+        <div class="message bot">
+          <div class="message-content">
+            Hello! I'm your music assistant. Try telling me how you're feeling, like:
+            <ul>
+              <li>"I'm feeling energetic"</li>
+              <li>"I'm in a chill mood"</li>
+              <li>"Feeling low and need a boost"</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Tell me your mood..." aria-label="Type your message">
+        <button id="send-btn">Send</button>
+        <button id="clear-chat" class="secondary">Clear Chat</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-copyright">
+      &copy; 2025 TuneMate. All rights reserved. This project is created by Aditya and Adarsh.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+  <!-- <script src="chatbot.js"></script> -->
+  <script src="theme.js"></script>
+</body>
+</html>
+
