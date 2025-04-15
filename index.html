@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Song Finder</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 </head>
-<body>
-  <div class="chat-container">
-    <div id="chat-box" class="chat-box">
-      <div class="message bot">Hi! 😊 Tell me your mood, and I’ll suggest some songs 🎵</div>
-    </div>
-    <div class="input-area">
-      <input type="text" id="user-input" placeholder="Type your mood..." />
-      <button onclick="handleSend()">Send</button>
-    </div>
-  </div>
+<body class="light-mode">
+  <header>
+    <nav class="navbar">
+      <div class="logo">TuneMate</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="chatbot.html">Chatbot</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-icon">🌙</span>
+      </button>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
 
-  <script src="script.js"></script>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Discover Music That Matches Your Mood</h1>
+        <p>Our AI chatbot recommends songs based on your feelings — from upbeat Punjabi beats to relaxing English tunes.</p>
+        <div class="cta-buttons">
+          <a href="chatbot.html" class="btn primary">Try Our Chatbot</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="music.jpg" alt="image" loading="lazy">
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+      <div class="footer-copyright">
+        &copy; 2025 TuneMate. All rights reserved. This project is created by Aditya and Adarsh.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script2.js"></script>
+  <script src="theme.js"></script>
 </body>
 </html>
