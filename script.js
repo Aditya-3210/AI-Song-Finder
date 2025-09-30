@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = 'AIzaSyBgbMg_8BfiHXwNAZ7ZuJCyS_veZJz7F4w';
+const GEMINI_API_KEY = '';
 
 const chatArea = document.getElementById('chat-area');
 const input = document.getElementById('user-input');
@@ -58,3 +58,4 @@ clearBtn.addEventListener('click', () => {
   chatArea.innerHTML = '';
   input.value = '';
 });
+
